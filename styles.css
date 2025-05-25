@@ -1,0 +1,106 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(77, 77, 206);
+    font-size: 23px;
+}
+
+main {
+    max-width: 768px;
+    margin: 20px auto 0;
+    color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+header p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#survey-form {
+    /* border: 1px solid red; */
+    background-color: blueviolet;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.big-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 2px solid red; */
+    margin-bottom: -15px;
+}
+.form-1 input:focus, 
+.big-form select:focus, 
+.big-form textarea:focus {
+    outline: 2px solid red;
+}
+
+label, p {
+    margin-bottom: 6px;
+    font-size: 19px;
+}
+.form-1 input {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+select {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+/* .form-2 select option:first-of-type {
+    background-color: gray;
+} */
+
+input[type="radio"] {
+    margin-right: 7px;
+}
+input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+.form-3, 
+.form-5, 
+.form-6 {
+    margin-bottom: 8px;
+}
+
+textarea {
+    padding: 10px;
+    /* height: 100px; */
+}
+
+.big-form button {
+    background-color: rgb(93, 180, 93);
+    padding: 15px;
+    color: #f1f1f1;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+
