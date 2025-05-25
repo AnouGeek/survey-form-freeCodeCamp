@@ -18,8 +18,8 @@ This is a survey form created as part of the freeCodeCamp Responsive Web Design 
 
 To run this project locally:
 
-1. Clone the repository:
-   git clone https://github.com/AnouGeek/survey-form.git
+1. Clone the repository: 
+    git clone https://github.com/AnouGeek/survey-form-freeCodeCamp.git
 2. Open the folder and launch the index.html file in your browser.
 
 ## 📸 Screenshot ##
